@@ -3,7 +3,7 @@ os: windows
 
 files:
   - source: files/index.html
-    destination: C:\\inetpub\\wwwroot
+    destination: D:\\applications\\energy\\codedeploy
 
 hooks:
   BeforeInstall:
