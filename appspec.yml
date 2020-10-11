@@ -7,8 +7,6 @@ files:
 
 hooks:
   BeforeInstall:
-    - location: scripts/webserver-stop.ps1
     - location: scripts/delete-old-index.ps1
   AfterInstall:
     - location: scripts/sleep.ps1
-    - location: scripts/webserver-start.ps1
